@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import Search from './components/search'
-import Spinner from './components/Spinner'
-import Movie from './components/Movie'
+import Search from './components/Search.jsx'
+import Spinner from './components/Spinner.jsx'
+import Movie from './components/Movie.jsx'
 import { useDebounce } from 'react-use'
 import { getTrandingMovies, updateSearchCount } from './appwrite'
 
